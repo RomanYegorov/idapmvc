@@ -19,5 +19,10 @@ class Controller
         require_once '../app/views/' . $view . '.php';
     }
 
+       protected function test($view, $data = false)
+    {
+        var_dump("ALALALA");
+    }
+
 
 }
